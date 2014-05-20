@@ -1,0 +1,18 @@
+/**
+ * These is the app's configuration, If you need to configure
+ * the default dashboard, please see dashboards/default
+ */
+define(['settings'],
+function (Settings) {
+  "use strict";
+
+  return new Settings({
+
+<%= "    elasticsearch: #{node['kibana']['config']['elasticsearch']}," %>
+<%= "    kibana_index: \"#{node['kibana']['config']['kibana_index']}\"," %>
+<%= "    default_route: \"#{node['kibana']['config']['default_route']}\"," %>
+<%= "    panel_names: #{node['kibana']['config']['panel_names']}" %>
+
+  });
+});
+
