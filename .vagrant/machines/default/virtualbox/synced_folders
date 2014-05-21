@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/samboysel/devops/elkstack"},"v-csc-1":{"id":"v-csc-1","guestpath":"/tmp/vagrant-chef-3/chef-solo-1/cookbooks","hostpath":"/Users/samboysel/.berkshelf/default/vagrant/berkshelf-20140519-1164-wujteo-default"}}}
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/samboysel/devops/elkstack"},"v-csc-1":{"id":"v-csc-1","guestpath":"/tmp/vagrant-chef-3/chef-solo-1/cookbooks","hostpath":"/Users/samboysel/.berkshelf/default/vagrant/berkshelf-20140520-9688-sa1s6t-default"}}}

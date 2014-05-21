@@ -32,8 +32,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
      chef.add_recipe "nginx::default"
      chef.add_recipe "elasticsearch::default"
      chef.add_recipe "elasticsearch::nginx"
-     chef.add_recipe "logstash::server"
-     chef.add_recipe "logstash::index_cleaner"
+     chef.add_recipe "logstash::default"
+     #chef.add_recipe "logstash::agent"
+     #chef.add_recipe "logstash::server"
+     #chef.add_recipe "logstash::index_cleaner"
      chef.add_recipe "kibana::nginx"
    end
 end
