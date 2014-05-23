@@ -7,7 +7,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.box = "ubuntu/trusty64"
   config.vm.hostname = "logstash"
-  config.berkshelf.enabled = true 
+  config.berkshelf.enabled = true
 
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
@@ -37,5 +37,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
      #chef.add_recipe "logstash::server"
      #chef.add_recipe "logstash::index_cleaner"
      chef.add_recipe "kibana::nginx"
+     chef.add_recipe "riemann::default"
    end
 end
